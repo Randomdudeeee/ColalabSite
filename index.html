@@ -72,6 +72,22 @@
             margin: 30px auto;
             padding: 20px;
         }
+
+        .page-button {
+            display: inline-block;
+            padding: 2px 6px;
+            border: 2px outset buttonborder;
+            border-radius: 2px;
+            background-color: buttonface;
+            color: buttontext;
+            font: 400 13.3333px Arial, sans-serif;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .page-button:active {
+            border-style: inset;
+        }
     </style>
 </head>
 
@@ -116,9 +132,9 @@
         </section>
         <section>
             <p><b>More About Us:</b></p>
-            <button type="button">About Us Page</button>
+            <a class="page-button" href="about_us/about-us.html">About Us Page</a>
             <p><b>Contact Us:</b></p>
-            <button type="button">Contact US Page</button>
+            <a class="page-button" href="contact_us/contact.html">Contact US Page</a>
         </section>
     </div>
 
