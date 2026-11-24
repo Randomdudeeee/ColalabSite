@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Colalab | We Work Together</title>
+
+    <style>
+        body {
+            font-family: "Courier New", monospace;
+            margin: 0;
+            background-color: #c0c0c0;
+            color: #000080;
+        }
+
+        header {
+            background-color: #000080;
+            color: #ffff00;
+            text-align: center;
+            padding: 30px;
+            border-bottom: 5px ridge #ffffff;
+        }
+
+        header h1 {
+            font-size: 34px;
+            text-shadow: 2px 2px #ff0000;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #ffffff;
+        }
+
+        .container {
+            width: 65%;
+            margin: 30px auto;
+            padding: 25px;
+            background-color: #ffffff;
+            border: 4px ridge #808080;
+            box-shadow: 5px 5px #555555;
+        }
+
+        h2 {
+            color: #ff0000;
+            border-bottom: 2px dashed #000080;
+            padding-bottom: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            line-height: 2;
+        }
+
+        li::marker {
+            color: #ff0000;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            color: #000080;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 3px inset #cccccc;
+            background-color: #ffffe0;
+            font-family: "Courier New", monospace;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #c0c0c0;
+            color: #000080;
+            padding: 12px 20px;
+            border: 4px outset #ffffff;
+            margin-top: 20px;
+            font-family: "Courier New", monospace;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:active {
+            border-style: inset;
+        }
+
+        button:hover {
+            background-color: #ffff00;
+        }
+
+        .quote {
+            background-color: #ffffcc;
+            border: 3px dotted #ff0000;
+            padding: 15px;
+            margin-top: 20px;
+            font-style: italic;
+            color: #800000;
+        }
+
+        .announcement {
+            background-color: #000080;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 3px ridge #ffffff;
+        }
+
+        footer {
+            background-color: #000080;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            border-top: 5px ridge #ffffff;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        .blink {
+            animation: blink 1s steps(2, start) infinite;
+            color: #ff0000;
+            font-weight: bold;
+        }
+
+        @keyframes blink {
+            to {
+                visibility: hidden;
+            }
+        }
+
+        a {
+            color: #0000ee;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 85%;
+                padding: 15px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>*** CONTACT US: LET'S COLLABORATE! ***</h1>
+        <p>Because teamwork makes the dream work. Allegedly.</p>
+        <p class="blink">*** WELCOME TO COLALAB INC. ***</p>
+    </header>
+
+    <div class="container">
+
+        <div class="announcement">
+            *** YOU ARE VISITOR NUMBER 000001 ***
+            <br>
+            THANK YOU FOR VISITING OUR WEBSITE!
+        </div>
+
+        <h2>We Believe in Collaboration!</h2>
+
+        <p>
+            At our organization, collaboration is our top priority.
+            Every decision is made together, every task is shared,
+            and every achievement belongs to the entire team.
+        </p>
+
+        <p>
+            If you feel like you're doing everything yourself,
+            that's just our innovative approach to distributed leadership.
+            You're not alone. You're simply independently collaborating.
+        </p>
+
+        <h2>Why Work With Us?</h2>
+
+        <ul>
+            <li>We value everyone's input, especially after the decision is final.</li>
+            <li>We distribute responsibilities equally, regardless of who actually does them.</li>
+            <li>We believe in open communication, particularly when nobody responds.</li>
+            <li>We celebrate teamwork by letting one person finish the entire project.</li>
+        </ul>
+
+        <div class="quote">
+            "There is no 'I' in TEAM, but there is an 'I' in
+            'I'm doing all the work.'"
+        </div>
+
+        <h2>Contact Our Collaboration Team</h2>
+
+        <p>
+            Have a proposal? Need assistance? Want to collaborate?
+            Send us a message! We will make sure your concern is
+            acknowledged, appreciated, and eventually forwarded
+            to someone else.
+        </p>
+
+        <form>
+            <label>Your Name:</label>
+            <input type="text" placeholder="The person doing the work">
+
+            <label>Your Email:</label>
+            <input type="email" placeholder="We might reply.">
+
+            <label>How Can We Collaborate?</label>
+            <textarea rows="5" placeholder="Describe the work you would like us to do together..."></textarea>
+
+            <button type="button" onclick="alert('Thank you for your unwavering commitment to collaboration! As a token of our appreciation, we have assigned you the entire workload. After all, teamwork means everyone contributes, and by everyone, we mean you. Great teamwork!')">
+                [ COLLABORATE NOW ]
+            </button>
+        </form>
+
+        <p>
+            <i>
+                Remember: If you think you're not being heard,
+                we assure you that we have already discussed your concerns
+                in a meeting you were not invited to.
+            </i>
+        </p>
+
+        <center>
+            <p class="blink">*** BEST VIEWED IN 800 x 600 RESOLUTION ***</p>
+            <p>Under Construction... Just Like Our Teamwork.</p>
+        </center>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Colalab Inc. All Rights Reserved.</p>
+        <p>One Team. One Vision. One Person Doing Everything.</p>
+        <p>Powered by Absolutely No Accountability™</p>
+    </footer>
+
+</body>
+</html>
